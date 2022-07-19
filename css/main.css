@@ -1,0 +1,65 @@
+/* 
+	This is a main scss file to require other scss files
+	This file compiled to main.min.scss in css folder path '../css/main.min.css'
+	And This file compiled to main.scss in css folder path '../css/main.css'
+*/
+/*
+	This file is for global styling
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+}
+
+body {
+  background: #ffffff;
+  color: #333333;
+}
+
+nav {
+  margin: 3vh 2vw;
+}
+
+nav h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 767px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 64px;
+  font-family: 'Space Mono', monospace;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+}
+
+main a {
+  background: #333333;
+  color: #ffffff;
+  padding: 2vh 2.5vw;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */

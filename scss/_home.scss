@@ -1,0 +1,42 @@
+body {
+	background: $bg-color;
+	color: $text-color;
+}
+
+nav {
+	margin: 3vh 2vw; 
+	h1 {
+		font-weight: 700;
+		font-size: 24px;
+	}
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	@media (max-width: 767px) {
+		flex-direction: column;
+	}
+	h2 {
+		font-weight: 700;
+		font-size: 64px;
+		font-family: 'Space Mono', monospace;
+	}
+	p {
+		font-weight: 400;
+		font-size: 24px;
+		margin-bottom: 5vh;
+		margin-top: 3vh;
+	}
+	a {
+		background: $text-color;
+		color: $bg-color;
+		padding: 2vh 2.5vw;
+		font-weight: 700;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+}

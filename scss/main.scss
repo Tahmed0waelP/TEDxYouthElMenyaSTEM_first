@@ -1,0 +1,9 @@
+/* 
+	This is a main scss file to require other scss files
+	This file compiled to main.min.scss in css folder path '../css/main.min.css'
+	And This file compiled to main.scss in css folder path '../css/main.css'
+*/
+
+@import 'colors';
+@import 'globel';
+@import 'home';
